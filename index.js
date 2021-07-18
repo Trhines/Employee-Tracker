@@ -501,6 +501,7 @@ const inquirerPromts = {
         for(i=0; i<allManagers.length; i++){
             managers.push(allManagers[i].firstName)
         }
+        console.log(managers)
 
         inquirer.prompt([
             {
